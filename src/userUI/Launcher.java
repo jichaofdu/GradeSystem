@@ -22,7 +22,7 @@ public class Launcher {
 	public static void main(String[] args){
 		GradeSystem gradeSystem = new GradeSystem();
 		try {     	
-	        String pathname = "F:\\Users\\Chao Ji\\Desktop\\软件工程\\HW1_grp\\reference\\gradeinput.txt"; 
+	        String pathname = "gradeinput.txt"; 
 	        File filename = new File(pathname);
 	        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(filename)));   
 	        String line = "";  
